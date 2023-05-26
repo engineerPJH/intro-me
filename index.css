@@ -32,9 +32,8 @@ img {
     letter-spacing: 4px;
 }
 
-#wrap {
+main {
     margin: 32px;
-    min-height: calc(100vh - 90px);
 }
 
 #name {
@@ -87,5 +86,9 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #name {
+        text-align: center;
     }
 }
