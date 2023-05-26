@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#intro {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+}
+
+#intro nav ul li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+}
+#intro nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+#intro nav ul li a:hover {
+    background-color: darkgray;
+    letter-spacing: 4px;
+}
+
+#wrap {
+    margin: 32px;
+    min-height: calc(100vh - 90px);
+}
+
+#name {
+    font-size: 48px;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 20px 0;
+}
+
+#hidden {
+    overflow: hidden;
+    width: 320px;
+}
+
+#profile {
+    width: 320px;
+    box-sizing: content-box;
+    transition: all 1.5s;
+}
+#profile:hover{
+    transform: scale(1.5);
+}
+
+#detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+}
+
+#detail section h3 {
+    font-size: 32px;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 40px 0 10px 0;
+}
+
+main article section ul, ol {
+    margin: 0 0 0 40px;
+}
+
+#personal {
+    margin: 0 0 0 20px;
+}
+
+footer {
+    padding: 40px;
+    background-color: lightgrey;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
